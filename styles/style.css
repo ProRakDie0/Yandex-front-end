@@ -5,8 +5,16 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+/* ------ */
+
 .header {
-  height: auto;
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
@@ -25,13 +33,15 @@
 }
 
 .header__title {
-  padding-top: 10%;
+  padding-top: 300px;
+  padding-bottom: 300px;
   margin-left: 64px;
   width: 730px;
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
-  text-align: left; 
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .header__main-illustration {
@@ -63,10 +73,15 @@
   z-index: 1;
 }
 
+/* ------ */
+
 .description {
+  min-height: 600px;
+  max-height: 756px;
   margin-top: 100px;
   display: flex;
   justify-content: center;
+  margin-bottom: 0k;
 }
 
 .two-columns {
@@ -75,6 +90,7 @@
   width: 80%;
   flex-wrap: wrap;
   margin: 0;
+  
 }
 
 .two-columns__brief {
@@ -91,13 +107,14 @@
   flex-direction: column;
   width: 80%;
   min-width: 784px;
-  gap: 15px;
+  
 }
 
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__span-accent {
@@ -106,14 +123,13 @@
   line-height: 34px;
 }
 
-.no-margin-top {
-  margin-top: 0;
+.gap {
+  margin: 30px 0 30px 0;
 }
 
-.no-margin-botton {
-  margin-bottom: 0;
-}
+/* ------ */  
 
 .digits {
   margin-top: 100px;
 }
+
