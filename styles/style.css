@@ -1,3 +1,9 @@
+:root {
+  --colorBLUE: #2f80ed;
+  --colorGREY: #f2f2f2;
+  --colorBLACKGREY: #1f1f1f;
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -5,19 +11,14 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
+
 
 /* ---header--- */
 
 .header {
   min-height: 600px;
   max-height: 756px;
-  background-color: #f2f2f2;
+  background-color: var(--colorGREY);
   margin: 0;
   position: relative;
 }
@@ -63,10 +64,17 @@
   font-weight: normal;
 }
 
+.header__link {
+  text-decoration: none;  
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+}
+
 .header__square-pic {
   height: 568px;
   width: 568px;
-  background-color: #2f80ed;
+  background-color: var(--colorBLUE);
   position: absolute;
   top: 64px;
   right: 0;
@@ -102,7 +110,7 @@
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
-  color: #2f80ed;
+  color: var(--colorBLUE);
   width: 175px;
   margin: 0;
 }
@@ -196,16 +204,75 @@
 /* ---feynman--- */  
 
 .feynman {
+  position: relative;
+  height: 890px;
   margin-top: 100px;
   margin-bottom: 0px;
+  background-color: var(--colorGREY);
+  background-image: url("../images/feynman.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 867px 637px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feynman__title {
+  text-align: center;
+  width: 648px;
+ 
+  margin: 0;
+  margin-top: -12%;
+
+  margin-bottom: 70px;
+
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.feynman__subtitle {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%; 
+  right: 48px;
+  font-size: 36px;
+  font-weight: normal;
+  color: var(--colorBLUE);
+  transform: translateY(-50%);
+  text-decoration: none;
 }
 
 
 /* ---kaufman--- */  
 
 .kaufman {
-  margin-top: 90px;
+  margin-top: 0;
+  padding-top: 90px;
   margin-bottom: 90px;
+  background-color: var(--colorBLACKGREY);
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.section-title_theme_dark {
+  color: white;
 }
 
 /* ---footer--- */  
