@@ -1,0 +1,26 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+
+  margin: 0 auto;
+
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: var(--colorBLACK);
+}
+
+.page * {
+  margin: 0;
+  padding: 0;
+}
+
+.page a {
+  transition: opacity 0.2s;
+}
+
+.page a:hover {
+  opacity: 0.7;
+}
+
+.page ul {
+  list-style: none;
+}
