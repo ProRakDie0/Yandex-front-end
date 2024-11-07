@@ -13,3 +13,10 @@
 @import "../blocks/header/__language/_active/header__language_active.css";
 @import "../blocks/header/__languages/header__languages.css";
 @import "../blocks/header/__logo/header__logo.css";
+
+@import "../blocks/welcome/welcome.css";
+@import "../blocks/welcome/__container/welcome__container.css";
+@import "../blocks/welcome/__image/welcome__image.css";
+@import "../blocks/welcome/__image-text/welcome__image-text.css";
+@import "../blocks/welcome/__subtitle/welcome__subtitle.css";
+@import "../blocks/welcome/__title/welcome__title.css";
