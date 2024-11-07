@@ -20,3 +20,12 @@
 @import "../blocks/welcome/__image-text/welcome__image-text.css";
 @import "../blocks/welcome/__subtitle/welcome__subtitle.css";
 @import "../blocks/welcome/__title/welcome__title.css";
+
+@import "../blocks/statistics/__title/statistics__title.css";
+@import "../blocks/statistics/__text/statistics__text.css";
+@import "../blocks/statistics/__list/statistics__list.css";
+@import "../blocks/statistics/__list-text/statistics__list-text.css";
+@import "../blocks/statistics/__list-text-span/statistics__list-text-span.css";
+
+@import "../blocks/gallery/gallery.css";
+@import "../blocks/gallery/__grid/gallery__grid.css";
