@@ -1,2 +1,15 @@
 @import "../vendor/normalize.css";
 @import "../vendor/fonts.css";
+
+@import "../blocks/root/root.css";
+
+@import "../blocks/container/container.css";
+@import "../blocks/container/_size/container_size_s.css";
+@import "../blocks/container/_size/container_size_l.css";
+
+@import "../blocks/header/header.css";
+@import "../blocks/header/__container/header__container.css";
+@import "../blocks/header/__language/header__language.css";
+@import "../blocks/header/__language/_active/header__language_active.css";
+@import "../blocks/header/__languages/header__languages.css";
+@import "../blocks/header/__logo/header__logo.css";
