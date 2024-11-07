@@ -1,0 +1,8 @@
+.gallery__grid {
+  gap: 16px;
+
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+
+  display: grid;
+  justify-items: stretch;
+}
